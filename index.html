@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+      <meta charset="utf-8">
+    
+      <title>Agencia Canape</title>
+      <meta name="description" content="Canape">
+      <meta name="author" content="Catalina Syddall">
+    
+      <link rel="icon" href="./imagenes/logo.svg">
+    
+      <link rel="stylesheet" href="./styles.css">
+    
+    </head>
+<body>
+    <div class="contenedorPadre">
+    <nav>
+        <div class="logoContenedor">
+            <img src="./imagenes/logo.svg" alt="logo marca">
+            <h3>PORTFOLIO</h3>
+        </div>
+        <ul>
+            <li>
+                <a href="#sobremi">SOBRE MI</a>
+            </li>
+            <li>
+                <a href="#servicios">SERVICIOS</a>
+            </li> 
+            <li>
+                <a href="#proyectos">PROYECTOS</a>
+            </li>
+            <li>
+                <a href="#contacto">CONTACTO</a>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        <div class="contenedorHeader">
+            <img class="fotoPerfil" src="./imagenes/ilustracion-portada.jpg" alt="ilustracion de persona con taza"/>
+            <div class="presentacion">
+                <h2>HOLA 👋 SOMOS</h2>
+                <h1>CANAPE</h1>
+            <div class="contenedorFlotante">AGENCIA DE DESARROLLO WEB Y DISEÑO GRAFICO</div>
+            </div>
+        </div>
+    </header>
+    <div class="trama1"></div>
+    <section id="sobremi">
+        <div class="contendorSobreMi">
+            <img class="fotoSobreMi" src="./imagenes/sobre_mi.jpeg" alt="imagen personal con fondo paisaje"/>
+            <div class="contenedorTexto">
+                <h2>Quién esta detrás de Canape?</h2>
+                <p>
+                    Mi nombre es Catalina, soy desarrolladora fullstack especializada en frontend y estudiante de Diseño Grafico en la Escuela Da Vinci. 
+                    Me apasiona el diseño UX/UI y me especializo en crear herramientas performantes, hermosas y faciles de usar 
+                    que resuelvan problemas reales en la vida real de las personas. 
+                    <br><br> Soy Ilustradora y bailarina, amo viajar y conocer nuevos paisajes y culturas. 
+                    Paso todo el tiempo que puedo con mi perro, Carlos 
+                </p>
+                <img class="fotoCarlos" src="./imagenes/carlos.png"/>
+            </div>
+        </div>
+    </section>
+    <section id="servicios">
+        <div class="rectanguloNaranja"></div>
+        <h2>SERVICIOS</h2>
+        <div class="contenedorServicios">
+            <!-- primera columna grid -->
+                <img src="./imagenes/desarrolloWeb.svg" alt="icono desarrollo web"/>
+                <img src="./imagenes/ilustrations.svg" alt="icono ilustracion"/>
+                <img src="./imagenes/branding.svg" alt="icono branding desarrollo de marca"/>
+
+            <!-- segunda columna grid -->
+                <h3>DESARROLLO WEB</h3>
+                <h3>ILUSTRACION</h3>
+                <h3>BRANDING</h3>
+        </div>
+    </section>
+    <section id="proyectos">
+        <h3>PROYECTOS</h3>
+        <figure class="contenedorProyectos">
+            <img src="imagenes/clippy.png" alt="ilustracion humoristica personaje"/> 
+            <img src="imagenes/mockup_gaki.jpg" alt="mockup desarrollo de marca Gaki, paquete con ilustracion"/>
+            <img src="./imagenes/tapa_libro.png" alt="diseño de tapa de libro"/>
+
+        </figure>
+        <figure class="contenedorProyectos segundo">
+            <img src="./imagenes/paisaje.png" alt="ilustracion paisaje de bosque"/>
+            <img src="./imagenes/fito_logo.png" alt="logo Fito marca cerveceria"/>
+            <img src="./imagenes/pieza_grafica.png" alt="pieza grafica para redes banda de rock"/> 
+        </figure>
+    </section>
+    <section id="contacto">
+        <div class="contenedorForm">
+            <h2>CONTACTO</h2>
+            <p>Tenes un proyecto en mente? Necesitas ayuda para llevar adelante tus ideas? Escribinos!!</p>
+            <form class="flexbox" action="" method="post">
+                <div class="datos">
+                    <label for="nombre-apellido">Nombre y Apellido:</label>
+                    <input type="text"  id="nombre-apellido" required placeholder="ej: martin matinez">
+                    <label for="e-mail">e-mail*:</label>
+                    <input type="email"  id="e-mail" required placeholder="campo obligatorio*">
+                </div>
+                <div class="enviar-consulta">
+                    <textarea  id="presuesto" cols="30" rows="10" placeholder="Dejanos tu consulta!!"></textarea>
+                    <button class="enviar" type="submit">
+                        ENVIAR
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="trama2"></div>
+        <h2>Contacto</h2>
+        <div class="footerContent">
+            <img src="./imagenes/email.svg" alt="icono email"/>
+            <a href="mailto:catalinasyddall@gmail.com">catalinasyddall@gmail.com</a>
+            <img src="./imagenes/twitter.svg" alt="icono twitter"/>
+            <a href="https://twitter.com/gelachinax">@gelachinax</a>
+            <img src="./imagenes/github.svg" alt="icono github"/>
+            <a href="https://github.com/catalinasy">@catalinasy</a>
+        </div>
+        <p class="copyright">© sitio web diseñado por Catalina Syddall</p>
+    </footer>
+</div>
+</body>
+</html>
