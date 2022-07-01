@@ -317,7 +317,8 @@ textarea:focus{
     transition: 0.2s;
   }
   .enviar:hover{
-      transform: scale(1.1);
+      background-color: #ffa963;
+      color: #693d10;
       
   }
 
