@@ -279,6 +279,8 @@ input {
     outline: none;
     padding:10px  5px;
     width: 100%;
+    font-family: 'DM Sans', sans-serif;
+
 }
 input:focus{
     background-color: rgb(255, 157, 92);
@@ -319,7 +321,6 @@ textarea:focus{
   .enviar:hover{
       background-color: #ffa963;
       color: #693d10;
-      
   }
 
 footer {
